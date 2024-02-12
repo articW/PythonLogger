@@ -74,5 +74,11 @@ To change this behavior, simply remove the `on_release=on_release` parameter fro
 
 ### Video presentation
 https://github.com/articW/PythonLogger/assets/56977852/f6889352-0779-4fb9-bf44-6acb622145c9
-
+- No manual interation was made in the video. There is some timing in my actions, but all was done by the script. You can try it yourself :)
+- 00:02 - Script it's NOT hidden
+- 00:10 - Script it's now hidden
+- 00:13 - I've refreshed the Registry, that's why the "Windows Update" poped-up suddenly
+- 00:18 - Dir "c:\temp\dados\" was created by the Script (00:00, there was no "temp" dir).
+- 00:40 - As soon as I went back from the Browser, the "compress" function was executed, that's why everything vanished
+- 01:00 - Again, as soon as I went to "Server" directory, the "data_transfer" function was executed. 
 
