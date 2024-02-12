@@ -31,7 +31,7 @@ The use of this keylogger project to attack targets without prior mutual consent
     - Files are compressed before being sent
     - When compressed, files are automatically removed from the source
 - Hybrid Encryption (TLS Socket):
-    - Files are sent to a server using a TLS Socket, encrypting all contents by default (ciphers autoamtically negoatiated between Client and Server). No encryption overhead
+    - Files are sent to a server using a TLS Socket, encrypting all contents by default (ciphers are automatically negoatiated between Client and Server). No encryption overhead
     - Session key (AES-256) encrypts data, while RSA 2048-bit used in handshake/key negotiation
 - Telegram integration:
     - Notifications sent via Telegram Bot, to a channel or group (bot creation in [BotFather](https://telegram.me/BotFather) required)
