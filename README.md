@@ -72,3 +72,7 @@ To change this behavior, simply remove the `on_release=on_release` parameter fro
 - The network interface is based on Sockets. So, a script can only receive one connection per time. 
 - The "SECRET" value is used only to avoid bots and crawlers to easily communicate with server-side Script. There is no need to be encrypted/hashed. 
 
+### Video presentation
+https://github.com/articW/PythonLogger/assets/56977852/f6889352-0779-4fb9-bf44-6acb622145c9
+
+
