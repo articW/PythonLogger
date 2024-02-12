@@ -63,7 +63,7 @@ The use of this keylogger project to attack targets without prior mutual consent
 2. `pythonw great-eye.pyw`
 > Windows versions of python are installed with two executables, `python.exe` (Windowed) and `pythonw.exe` (Windoless). By default, both extensions are added to PATH variable. 
 
-###### **How to stop the running script**
+##### **How to stop the running script**
 For testing purposes, the script is configured to stop running when the "ESC" key is pressed on the client. This is defined by the "on_release" function and controlled by "start_keyboard_listener".
 
 To change this behavior, simply remove the `on_release=on_release` parameter from the "start_keyboard_listener" function. Then, to stop the running script, it will be necessary to kill the process manually.
