@@ -1,5 +1,5 @@
 ## A **simple yet complex** python keylogger for Windows 
->For educational purposes, built by [articW](https://github.com/articW)
+>For educational purposes, built by [articW](https://github.com/articW) to [Pacific Security](https://site.pacificsec.com/en) bootcamp. Thx!
 
 ### Legal Disclaimer
 The use of this keylogger project to attack targets without prior mutual consent is strictly prohibited and may be illegal. It is the sole responsibility of the end user to comply with all applicable local, state, and federal laws. The developers of this project hereby disclaim any liability and cannot be held responsible for any misuse or damage resulting from the use of this program. This project is intended for educational and research purposes only and should be used ethically and within the bounds of the law.
@@ -46,8 +46,8 @@ The use of this keylogger project to attack targets without prior mutual consent
 #### Usage
 
 ##### **Quick start**
-1. `git clone `
-2. `cd `
+1. `git clone https://github.com/articW/PythonLogger`
+2. `cd PythonLogger`
 3. `pip install -r requirements.txt`
 4. Customize parameters in great-eye.py
 ##### **Generate a self-signed Server Key and Certificate**
@@ -59,8 +59,8 @@ The use of this keylogger project to attack targets without prior mutual consent
 ##### **Run as a Windowed Python script in Client**
 1. `python great-eye.py`
 ##### **Run as a Windowless Python script in Client**
-1. Change extension from `.py` to `pyw`
-2. `python great-eye.pyw`
+1. Change extension from `.py` to `.pyw`
+2. `pythonw great-eye.pyw`
 > Windows versions of python are installed with two executables, `python.exe` (Windowed) and `pythonw.exe` (Windoless). By default, both extensions are added to PATH variable. 
 
 ###### **How to stop the running script**
@@ -71,4 +71,4 @@ To change this behavior, simply remove the `on_release=on_release` parameter fro
 #### Known limitations
 - The network interface is based on Sockets. So, a script can only receive one connection per time. 
 - The "SECRET" value is used only to avoid bots and crawlers to easily communicate with server-side Script. There is no need to be encrypted/hashed. 
-
+- I'm not a professional software developer, so the code may not be perfect. I apologize for any shortcomings, but I've put a lot of effort into making it as effective as possible. I hope y'all find it useful. 
