@@ -71,4 +71,14 @@ To change this behavior, simply remove the `on_release=on_release` parameter fro
 #### Known limitations
 - The network interface is based on Sockets. So, a script can only receive one connection per time. 
 - The "SECRET" value is used only to avoid bots and crawlers to easily communicate with server-side Script. There is no need to be encrypted/hashed. 
-- I'm not a professional software developer, so the code may not be perfect. I apologize for any shortcomings, but I've put a lot of effort into making it as effective as possible. I hope y'all find it useful. 
+- I'm not a professional software developer, so the code may not be perfect. I apologize for any shortcomings, but I've put a lot of effort into making it as effective as possible. I hope y'all find it useful.
+
+### Video presentation
+https://github.com/articW/PythonLogger/assets/56977852/5695bbff-2427-4d26-a6de-a612bec27273
+- No manual interation was made in the video. There is some timing in my actions, but all was done by the script. You can try it yourself :)
+- 00:02 - Script it's NOT hidden
+- 00:10 - Script it's now hidden
+- 00:13 - I've refreshed the Registry, that's why the "Windows Update" poped-up suddenly
+- 00:18 - Dir "c:\temp\dados\" was created by the Script (00:00, there was no "temp" dir).
+- 00:40 - As soon as I went back from the Browser, the "compress" function was executed, that's why everything vanished
+- 01:00 - Again, as soon as I went to "Server" directory, the "data_transfer" function was executed. 
