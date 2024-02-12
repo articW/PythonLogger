@@ -15,8 +15,8 @@ The use of this keylogger project to attack targets without prior mutual consent
     - Running processes
     - System Information (sysinfo)
 - Human-readable logs:
-    - Keys are agreggated to form words
-    - Words are writeen to the file when the "Space bar" or "Enter key" is pressed
+    - Keys are aggregated to form words
+    - Words are written to the file when the "Space bar" or "Enter key" is pressed
     - When "Backspace key" is pressed, it also deletes the character collected
     - Timestamp for each word
 - Persistence:
@@ -41,7 +41,7 @@ The use of this keylogger project to attack targets without prior mutual consent
 #### System requirements
 - MS Windows (tested on 11).
 - [Python 3](https://www.python.org/downloads/) (tested on v. 3.12.1)
-    - `asyncio` module is required in the server-side Script, which was added to Python Standard Library  in Python 3.4. If your Python version is version 3.3 or later (`python --version`), [asyncio](https://pypi.org/project/asyncio/) needs to be installed mannually. 
+    - The `asyncio` module is required in the server-side Script, which was added to the Python Standard Library in Python 3.4. If your Python version is 3.3 or later (`python --version`), [asyncio](https://pypi.org/project/asyncio/) needs to be installed mannually. 
 
 #### Usage
 
@@ -64,13 +64,13 @@ The use of this keylogger project to attack targets without prior mutual consent
 > Windows versions of python are installed with two executables, `python.exe` (Windowed) and `pythonw.exe` (Windoless). By default, both extensions are added to PATH variable. 
 
 ##### **How to stop the running script**
-For testing purposes, the script is configured to stop running when the "ESC" key is pressed on the client. This is defined by the "on_release" function and controlled by "start_keyboard_listener".
+For testing purposes, the script is set to stop running when the "ESC" key is pressed on the client. This behavior is defined by the "on_release" function and controlled by "start_keyboard_listener".
 
 To change this behavior, simply remove the `on_release=on_release` parameter from the "start_keyboard_listener" function. Then, to stop the running script, it will be necessary to kill the process manually.
 
 #### Known limitations
-- The network interface is based on Sockets. So, a script can only receive one connection per time. 
-- The "SECRET" value is used only to avoid bots and crawlers to easily communicate with server-side Script. There is no need to be encrypted/hashed. 
+- The network interface is based on Sockets. Therefore, a script can only receive one connection at a time. 
+- The "SECRET" value is used solely to prevent bots and crawlers from easily communicating with the server-side Script. There is no need for encryption/hashing. 
 - I'm not a professional software developer, so the code may not be perfect. I apologize for any shortcomings, but I've put a lot of effort into making it as effective as possible. I hope y'all find it useful.
 
 ### Video presentation
